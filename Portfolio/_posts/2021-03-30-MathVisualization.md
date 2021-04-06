@@ -7,8 +7,6 @@ thumbnail: /assets/images/MathVizThumbnail.png
 projectNR: "7"
 ---
 
-# Mathematical Visualization
-
 ## 2D Fractals
 #### [Github](https://github.com/JPBotelho/Fractal-Megacollection)
 Implementation of fractal formulas, such as Mandelbrot, Julia and Newton. Includes 9 coloring techniques applied to the Mandelbrot set.
