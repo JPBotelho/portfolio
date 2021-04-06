@@ -1,0 +1,93 @@
+{% highlight glsl %}
+const float aR = 16.0/9.0;
+ 
+
+float remap(float value, float low1, float high1, float low2, float high2)
+{
+    return low2 + (value - low1) * (high2 - low2) / (high1 - low1);      
+}
+// polynomial smooth min (k = 0.1); (IQuilez)
+float smin(float a, float b, float k)
+{
+    float h = clamp( 0.5+0.5*(b-a)/k, 0.0, 1.0 );
+    return mix( b, a, h ) - k*h*(1.0-h);
+}
+
+struct Circle
+{
+	vec2 pos;
+    float radius;
+};
+    
+Circle circle1 = Circle(vec2(.3, .3), .2);
+Circle circle2 = Circle(vec2(1, .5), .2);
+Circle circle3 = Circle(vec2(1, .5), .2);
+
+//settings
+const float timeStep = 1.0;
+const float smoothFactor = 0.2;
+
+
+float distToCenter(vec2 point, Circle circle)
+{
+    return sqrt(pow(point.x - circle.pos.x, 2.0) + pow(point.y - circle.pos.y, 2.0));
+}
+
+void mainImage( out vec4 fragColor, in vec2 fragCoord )
+{
+    vec2 uv = fragCoord/iResolution.y;
+    
+    //Circle Movement
+	float timeSine = (sin(iTime/timeStep)+1.0)/2.0;
+    float timeCos = (cos(iTime/.7)+1.0)/2.0;
+  	float timeTan = (tan(iTime/timeStep)+1.0)/2.0;
+
+    circle1.pos.x = mix(0.0 + circle1.radius, aR - circle1.radius, timeSine);
+    circle1.pos.y = mix(0.0 + circle1.radius, 1.0 - circle1.radius, timeSine);
+    circle2.pos.x = aR-mix(0.0 + circle2.radius, aR - circle2.radius, timeSine);
+    
+    circle3.pos.y = mix(0.0 + circle3.radius, 1.0 - circle3.radius, timeCos);
+    circle3.pos.x = mix(0.0 + circle3.radius, aR - circle3.radius, 1.0-timeCos);
+
+    //For coloring based on distance to closest center
+    float centerDist = distToCenter(uv, circle1);
+    float centerDist2 = distToCenter(uv, circle2);  
+    float centerDist3 = distToCenter(uv, circle3);
+    float closestCenterDist = min(min(centerDist, centerDist2), centerDist3);
+    float circleDist = centerDist - circle1.radius;    
+
+    circleDist = smin(circleDist, centerDist2 - circle2.radius, smoothFactor);
+    circleDist = smin(circleDist, centerDist3 - circle3.radius, smoothFactor);
+    if(circleDist <= .01)
+    {        
+        //centreDist ranges from 0 (center) to radius (circumpherence)
+        //normalize in 0...1 range by dividing by radius
+        closestCenterDist /= .2;
+        centerDist /=.2;
+        centerDist2 /=.2;
+        centerDist3 /=.2;
+        
+        //Weighted distribution of color, the closest you are to a sphere the more its color 
+        //bleeds onto the current pixel.
+        //    distanceToCircle
+        //    ----------------
+        //  distanceToAllCircles
+        //Thought i had to do 1 - this but apparently it works like this so eh ill take it
+        
+        float c1Infl = centerDist / (centerDist + centerDist2 + centerDist3);
+        float c2Infl = centerDist2 / (centerDist + centerDist2 + centerDist3);
+        float c3Infl = centerDist3 / (centerDist + centerDist2 + centerDist3);
+
+        vec3 col1 = vec3(146, 0, 255) * c1Infl;
+        vec3 col2 = vec3(255, 146, 0) * c2Infl;
+        vec3 col3 = vec3(0, 255, 146) * c3Infl;
+        
+        fragColor = vec4(/*closestCenterDist * */(col1+col2 + col3)/255.0, 1.0);
+    }
+    else
+    {
+    	fragColor = vec4(0);   
+    }
+}
+
+{% endhighlight %}

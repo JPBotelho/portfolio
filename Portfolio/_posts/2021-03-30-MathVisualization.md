@@ -23,7 +23,13 @@ Implementation of fractal formulas, such as Mandelbrot, Julia and Newton. Includ
 
 ## Raymarched Fractals
 #### [Github](https://github.com/JPBotelho/Raymarched-Fractals/)
-Implementation of a Raymarcher with 3D fractal SDFs.
+First experimentation with Raymarching. Implemented in Unity as a Post-Processing effect. The Signed Distance Functions were taken from Shadertoy, and for the rendering it is a mixture of fake iteration-based Ambient Occlusion and Phong shading.
+
+![Test](/assets/images/RaymarchedFractals2.png "ageag")
+
+{:refdef: style="text-align: center;"}
+### ![Test](/assets/images/RaymarchedFractal.gif "ageag")
+{: refdef}
 
 ---
 
@@ -31,28 +37,45 @@ Implementation of a Raymarcher with 3D fractal SDFs.
 #### [Github](https://github.com/JPBotelho/Buddhabrot)
 Mandelbrot set variant rendered with a histogram.
 
+![Test](/assets/images/Tricorn.png "ageag")
+![Test](/assets/images/Buddhabrot3.png "ageag")
+
+
 ---
 
 ## Knots
 #### [Github](https://github.com/JPBotelho/Knots)
 Generation and triangulation of mathematical knots.
+{:refdef: style="text-align: center;"}
+![Test](/assets/images/Knot1.png "ageag")
+![Test](/assets/images/Knot3.png "ageag")
+{: refdef}
 
 ---
 
 ## Lorenz System
 #### [Github](https://github.com/JPBotelho/Lorenz-System)
 Visualization of a Chaotic 3 variable system with a histogram.
-
+{:refdef: style="text-align: center;"}
+![Test](/assets/images/Lorenz1.png "ageag")
+![Test](/assets/images/Lorenz2.png "ageag")
+{: refdef}
 ---
 
 ## Mobius Strip
 #### [Github](https://github.com/JPBotelho/Mobius-Strip)
 2 Variable parametric surface plotting and triangulation.
-
+{:refdef: style="text-align: center;"}
+![Test](/assets/images/Mobius.png "ageag")
+![Test](/assets/images/Mobius2.png "ageag")
+{: refdef}
 ---
 
 ## Cellular Automata
 #### [Github]()
 Simulation of individual cell behaviour being based on collective status.
+{:refdef: style="text-align: center;"}
+![Test](/assets/images/CellularAutomata.png "ageag")
+{: refdef}
 
 ---
