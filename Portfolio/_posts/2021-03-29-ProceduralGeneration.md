@@ -6,8 +6,10 @@ categories: jekyll update
 thumbnail: /assets/images/ProcGenThumbnail.png
 projectNR: "5"
 ---
+* TOC
+{:toc}
 
-# Procedural Generation
+---
 ## [Unity Road Generator](https://github.com/JPBotelho/Unity-Road-Generator)
 Tool to generate road and curb meshes from Catmull-Rom Splines, in the Unity engine.
 

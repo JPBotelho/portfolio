@@ -7,8 +7,10 @@ thumbnail: /assets/images/VisualFXThumb3.png
 projectNR: "4"
 ---
 
+* TOC
+{:toc}
 
-# Visual Effects
+---
 
 ## [Combined Sobel Operators for Layered Edge Detection]()
 A Unity project made for a company that allows for multiple edge detection filters to be handled simoultaneously.
