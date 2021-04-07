@@ -4,7 +4,7 @@ title:  "Graphical Engines"
 date:  2019-08-09 20:55:40 +0800
 categories: jekyll update
 thumbnail: /assets/images/EnginesThumbnail.png
-projectNR: "2"
+projectNR: "2 Projects"
 ---
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 
