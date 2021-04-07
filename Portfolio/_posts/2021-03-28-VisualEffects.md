@@ -7,6 +7,10 @@ thumbnail: /assets/images/VisualFXThumb3.png
 projectNR: "4"
 ---
 
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+
+
 * TOC
 {:toc}
 
@@ -20,10 +24,20 @@ A Unity project made for a company that allows for multiple edge detection filte
 ![Test](/assets/images/VisualFXThumb3.png "ageag")
 {: refdef}
 
+---
+
+
 ## Health Bar
 
+---
 
-## [Camouflage Shader](https://github.com/JPBotelho/Camouflage-Shader)
+
+
+## Camouflage Shader
+#### [Github](https://github.com/JPBotelho/Camouflage-Shader)
+{% include github-star.html content="https://github.com/JPBotelho/Camouflage-Shader" %} 
+
+
 Applies a camouflage texture based on a pre-defined map. 
 
 {:refdef: style="text-align: center;"}
@@ -31,23 +45,49 @@ Applies a camouflage texture based on a pre-defined map.
 ![Test](/assets/images/Camo1.png "ageag")
 {: refdef}
 
-## [Dissolve Effect](https://github.com/JPBotelho/Dissolve-Shader)
+---
+
+
+## [Dissolve Effect]
+#### [Github](https://github.com/JPBotelho/Dissolve-Shader)
+{% include github-star.html content="https://github.com/JPBotelho/Dissolve-Shader" %} 
+
 Makes an object progressively transparent based on a noise map.
+
 
 {:refdef: style="text-align: center;"}
 ![Test](/assets/images/Dissolve.gif "ageag")
 {: refdef}
 
-## [Triplanar Mapping](https://github.com/JPBotelho/Triplanar-Mapping)
+---
+
+
+## [Triplanar Mapping]
+#### [Github](https://github.com/JPBotelho/Triplanar-Mapping)
+{% include github-star.html content="https://github.com/JPBotelho/Triplanar-Mapping" %} 
+
 Allows for axis-based coloring and texturing, allowing for example, to fake snow on top of an object.
 
 {:refdef: style="text-align: center;"}
 ![Test](/assets/images/Triplanar.png "ageag")
 {: refdef}
 
-## [Procedural Toon Shader](https://github.com/JPBotelho/Procedural-Toon-Shader)
+---
+
+
+## [Procedural Toon Shader]
+#### [Github](https://github.com/JPBotelho/Procedural-Toon-Shader)
+{% include github-star.html content="https://github.com/JPBotelho/Procedural-Toon-Shader" %} 
+
 Makes the lighting calculation not linear, instead it samples from a curve with predefined steps and giving a stylized look.
 
 {:refdef: style="text-align: center;"}
 ![Test](/assets/images/ProcToonShader.png "ageag")
 {: refdef}
+
+---
+
+
+
+
+

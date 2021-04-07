@@ -6,7 +6,9 @@ categories: jekyll update
 thumbnail: /assets/images/EnginesThumbnail.png
 projectNR: "2"
 ---
+<script async defer src="https://buttons.github.io/buttons.js"></script>
 
+# Index
 * TOC
 {:toc}
 
@@ -15,5 +17,11 @@ projectNR: "2"
 ## [C# OpenGL Engine](https://github.com/JPBotelho/OpenGL-Sandbox)
 Barebones engine that implements model loading, skyboxes and simple shadowmapping.
 
+---
+
+
 ## [Peanut Shader Engine](https://github.com/JPBotelho/Peanut-Shader-Engine)
 An attempt to build a sandbox to build pixel shaders, facilitating input of textures and external variables. Ideally an offline Shatertoy, in practice an incomplete, simple quad renderer.
+
+---
+
