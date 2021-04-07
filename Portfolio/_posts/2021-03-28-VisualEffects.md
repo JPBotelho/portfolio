@@ -17,18 +17,15 @@ projectNR: "6"
 
 ---
 
-## [Combined Sobel Operators for Layered Edge Detection]()
-A Unity project made for a company that allows for multiple edge detection filters to be handled simoultaneously.
-
-{:refdef: style="text-align: center;"}
-![Test](/assets/images/Sobel2.png "ageag")
-![Test](/assets/images/VisualFXThumb3.png "ageag")
-{: refdef}
-
----
-
-
 ## Health Bar
+![Test](/assets/images/AnimatedBar.gif "ageag")
+
+I made this health bar in a 48-hour Gamejam called Gamesforgood. Read more about the game [here]({% post_url 2021-03-27-Games %}#fome-de-vencer-hunger-to-win).
+
+It has a scrolling texture and the color changes from green to red as your life depletes; it is very simple in theory and implementation but it is a practical example of actually using shaders in the real world rather than to keep in your github and put in your portfolio.
+
+![Test](/assets/images/FomeDeVencer2.png "ageag")
+
 
 ---
 
@@ -49,7 +46,7 @@ Applies a camouflage texture based on a pre-defined map.
 ---
 
 
-## [Dissolve Effect]
+## Dissolve Effect
 #### [Github](https://github.com/JPBotelho/Dissolve-Shader)
 {% include github-star.html content="https://github.com/JPBotelho/Dissolve-Shader" %} 
 
@@ -63,7 +60,7 @@ Makes an object progressively transparent based on a noise map.
 ---
 
 
-## [Triplanar Mapping]
+## Triplanar Mapping
 #### [Github](https://github.com/JPBotelho/Triplanar-Mapping)
 {% include github-star.html content="https://github.com/JPBotelho/Triplanar-Mapping" %} 
 
@@ -76,7 +73,7 @@ Allows for axis-based coloring and texturing, allowing for example, to fake snow
 ---
 
 
-## [Procedural Toon Shader]
+## Procedural Toon Shader
 #### [Github](https://github.com/JPBotelho/Procedural-Toon-Shader)
 {% include github-star.html content="https://github.com/JPBotelho/Procedural-Toon-Shader" %} 
 

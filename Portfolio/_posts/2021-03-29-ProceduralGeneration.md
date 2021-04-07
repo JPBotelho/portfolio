@@ -37,28 +37,5 @@ Unity implementation of a voxel terrain using the Marching Cubes algorithm with 
 ![Test](/assets/images/Terrain2.png "ageag")
 {: refdef}
 
----
-
-## Low Poly Rock Generator
-#### [Github](https://assetstore.unity.com/packages/tools/modeling/low-poly-rock-generator-75041)
-
-Randomly generates n vertices inside a sphere or cube and generates a convex mesh out of them. End result is stylized, low polygon-style rocks.
-
-{:refdef: style="text-align: center;"}
-![Test](/assets/images/Rock1.png "ageag")
-![Test](/assets/images/Rock3.gif "ageag")
-{: refdef}
-
----
-
-## Low Poly Tree Generator
-#### [SOMETHINGSOMETHING]()
-
-Generates a convex mesh for leaves and generates a deformed cylinder for trunk.
-
-{:refdef: style="text-align: center;"}
-![Test](/assets/images/Tree2.png "ageag")
-![Test](/assets/images/Tree1.gif "ageag")
-{: refdef}
 
 ---
