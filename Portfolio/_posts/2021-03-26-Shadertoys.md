@@ -16,10 +16,12 @@ projectNR: "2 Shaders"
 ## Metaballs
 
 <details><summary>SHOW SOURCE</summary>
+
 <p>
 {% include metaballShader.txt %}
 </p>
 </details>
+
 
 <iframe width="896" height="504" frameborder="0" src="https://www.shadertoy.com/embed/wsVczw?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
 
@@ -32,5 +34,7 @@ projectNR: "2 Shaders"
 {% include 2dLightShader.txt %}
 </p>
 </details>
+
+Click on the screen to interact with the light
 
 <iframe width="896" height="504" frameborder="0" src="https://www.shadertoy.com/embed/wdycRm?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
