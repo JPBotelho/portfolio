@@ -50,9 +50,9 @@ These fractals are the representation of a set of complex numbers Z(x+yi) on the
 Different fractals will have different equations, it is generally just a matter of swapping that part in your code. Do remember that these are complex numbers, meaning that they are 2 dimentional and have their own operations. 
 
 {:refdef: style="text-align: center;"}
-![Test](/assets/images/MathVizThumbnail.png "ageag")
-![Test](/assets/images/Mandelbrot1.png "ageag")
-![Test](/assets/images/Barnsley2.png "ageag")
+![Test](/assets/images/MathVizThumbnail.png "Image")
+![Test](/assets/images/Mandelbrot1.png "Image")
+![Test](/assets/images/Barnsley2.png "Image")
 {: refdef}
 
 
@@ -66,16 +66,16 @@ Different fractals will have different equations, it is generally just a matter 
 First experimentation with Raymarching. Implemented in Unity as a Post-Processing effect. The Signed Distance Functions were taken from Shadertoy, and for the rendering it is a mixture of fake iteration-based Ambient Occlusion and Phong shading.
 
 
-These fractals, on the math level, are somewhat like black magic to me. Instead of trying to explain how they exist, I will go over the implementation details. The basic part is this: there is a magic function, called SDF (Signed Distance Function), which gives you the distance between any point and the closest point in an object. These functions are somewhat easy to understand for primitives like spheres and cubes, but some intelligent people have created SDFs for the fractals you see displayed. But how do you render using an SDF? Using raymarching. For every pixel in your image, shoot a ray out of your camera and calculate the distance to the nearest point in the surface using an SDF of your choice. Move the ray forward by that amount. Repeat this until you intersect with the object (meaning that the distance will be <.001 ). You move the ray forward by the distance of the closest point because it ensures that you can never go inside of the object. If the ray was pointed straight at the object, it would simply land at the nearest point and the next distance evaluation would be 0. This is rather hard to convey in text, so please take a look at the images in this blog: [Reference](https://viclw17.github.io/2018/11/29/raymarching-algorithm/).
+These fractals, on the math level, are somewhat like black magic to me. Instead of trying to explain how they exist, I will go over the implementation details. The basic part is this: there is a magic function, called SDF (Signed Distance Function), which gives you the distance between any point and the closest point in an object. These functions are somewhat easy to understand for primitives like spheres and cubes, but some intelligent people have created SDFs for the fractals you see displayed. But how do you render with an SDF? Using raymarching. For every pixel in your image, shoot a ray out of your camera and calculate the distance to the nearest point in the surface using an SDF of your choice. Move the ray forward by that amount. Repeat this until you intersect with the object (meaning that the distance will be <.001 ). You move the ray forward by the distance of the closest point because it ensures that you can never go inside of the object. If the ray was pointed straight at the object, it would simply land at the nearest point and the next distance evaluation would be 0. This is rather hard to convey in text, so please take a look at the images in this blog: [Reference](https://viclw17.github.io/2018/11/29/raymarching-algorithm/).
 
-You can find many SDFs in a website called Shadertoy. They are usually in the code under a function called map(), which normally is used to sample multiple SDFs simoultaneously. 
+You can find many SDFs in a website called Shadertoy. They are usually in the code under a function called map(), which is used to sample multiple SDFs simoultaneously. 
 
 
 
-![Test](/assets/images/RaymarchedFractals2.png "ageag")
+![Test](/assets/images/RaymarchedFractals2.png "Image")
 
 {:refdef: style="text-align: center;"}
-### ![Test](/assets/images/RaymarchedFractal.gif "ageag")
+### ![Test](/assets/images/RaymarchedFractal.gif "Image")
 {: refdef}
 
 ---
@@ -90,8 +90,8 @@ A Buddhabrot is created using the same algorithm we used to determine if a point
 Our image serves as a representation of the complex plane. When we initialize Z(x + iy), we are converting our pixel into a complex number. Whenever we iterate Z^2+c, Z will change, meaning it will be located in a different place of the Complex Plane. A different pixel in our image. A Buddhabrot is rendered by keeping track of how many times a pixel was visited by other pixels which escaped (and do not belong in the Mandelbrot Set). This can be achieved by having a grid of integers for every pixel which get incremented whenever they are visited. In the end, it can be rendered as grayscale by making the values linear. For colored rendering, you compute this grid 3 times, one for each color channel (RGB), except every time you do you change the maximum number of iterations. This rendering method can also be applied to other escape-time fractals.
 
 
-![Test](/assets/images/Tricorn.png "ageag")
-![Test](/assets/images/Buddhabrot3.png "ageag")
+![Test](/assets/images/Tricorn.png "Image")
+![Test](/assets/images/Buddhabrot3.png "Image")
 
 ---
 
@@ -108,8 +108,8 @@ Given a variable u, which ranges from ]0 ; 2π[, there are a set of functions th
 Having the points in the knot, it is now necessary to triangulate them. To do this, calculate the normal vector N of the edge between every point and the next. Afterwards, for every point, generate n vertices evenly spaced in a circumference of radius N (see github for visualization). In the end, it is just a matter of combining the vertices at each point and triangulating them. 
 
 {:refdef: style="text-align: center;"}
-![Test](/assets/images/Knot1.png "ageag")
-![Test](/assets/images/Knot3.png "ageag")
+![Test](/assets/images/Knot1.png "Image")
+![Test](/assets/images/Knot3.png "Image")
 {: refdef}
 
 ---
@@ -120,12 +120,12 @@ Having the points in the knot, it is now necessary to triangulate them. To do th
 
 Visualization of a Chaotic 3 variable system with a histogram.
 
-The lorenz system is a set of 3 differential equations. As the name says, these equations tell you how much the position of a point varies. There are 3 equations, one for each axis (XYZ). These equations rely on the input of 3 predeteremined variables named ρ, σ and β. These variables are set at the start of the simulation and don't change. Possible values for them are, for example, ρ = 28, σ = 10, and β = 8/3.
+The lorenz system is a set of 3 differential equations. These equations tell you how much the position of a point varies. There are 3 equations, one for each axis (XYZ). These equations rely on the input of 3 predeteremined variables named ρ, σ and β. These variables are set at the start of the simulation and don't change. Possible values for them are, for example, ρ = 28, σ = 10, and β = 8/3.
 
 To render a lorenz system, you start with a non-zero point P. Solve the differential equations for the point. Add the output to the current point's position. Render the point. Repeat. In order to obtain smooth results, multiply the result of the equations by something like 0.01. This ensures that the point moves very little each time, which generates more data.
 {:refdef: style="text-align: center;"}
-![Test](/assets/images/Lorenz1.png "ageag")
-![Test](/assets/images/Lorenz2.png "ageag")
+![Test](/assets/images/Lorenz1.png "Image")
+![Test](/assets/images/Lorenz2.png "Image")
 {: refdef}
 ---
 
@@ -140,8 +140,8 @@ It can be implemented as a parametric surface: Imagine you have a plane (u, v), 
 Given a point in this plane, the parametric surface equations will tell you where it will end up in three dimensions. so from P(u,v) you get P(x,y,z). It is essentially a deformation of the plane. In order to render it, generate a grid that will correspond to your plane. Triangulate it, as a normal grid. Then calculate the transformed position for every vertex. The vertices will change place but the triangles will remain the same.
 
 {:refdef: style="text-align: center;"}
-![Test](/assets/images/Mobius.png "ageag")
-![Test](/assets/images/Mobius2.png "ageag")
+![Test](/assets/images/Mobius.png "Image")
+![Test](/assets/images/Mobius2.png "Image")
 {: refdef}
 ---
 
@@ -153,7 +153,7 @@ Cellular Automata operates on a grid, where a cell can be either on or off. Ever
 
 
 {:refdef: style="text-align: center;"}
-![Test](/assets/images/CellularAutomata.png "ageag")
+![Test](/assets/images/CellularAutomata.png "Image")
 {: refdef}
 
 ---
