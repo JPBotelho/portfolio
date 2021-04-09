@@ -15,8 +15,13 @@ Mathematical concepts can produce some really cool visualizations. However, a lo
 {:toc}
 
 ---
-## 2D Fractals
-#### [Github](https://github.com/JPBotelho/Fractal-Megacollection)
+## 2D Fractals  <a href="https://github.com/JPBotelho/Fractal-Megacollection" class = "githubLink">see on github</a>
+
+<div markdown="0" class = "tagContainer">
+<a href="#" class = "unityTag">Unity3D</a>
+<a href ="#" class = "hlslTag"> HLSL</a>
+</div>
+
 {% include github-star.html content="https://github.com/JPBotelho/Fractal-Megacollection" %} 
 
 
@@ -59,8 +64,12 @@ Different fractals will have different equations, it is generally just a matter 
 ---
 
 
-## Raymarched Fractals
-#### [Github](https://github.com/JPBotelho/Raymarched-Fractals/)
+## Raymarched Fractals  <a href="https://github.com/JPBotelho/Raymarched-Fractals/" class = "githubLink">see on github</a>
+
+<div markdown="0" class = "tagContainer">
+<a href="#" class = "unityTag">Unity3D</a>
+</div>
+
 {% include github-star.html content="https://github.com/JPBotelho/Raymarched-Fractals" %} 
 
 First experimentation with Raymarching. Implemented in Unity as a Post-Processing effect. The Signed Distance Functions were taken from Shadertoy, and for the rendering it is a mixture of fake iteration-based Ambient Occlusion and Phong shading.
@@ -80,8 +89,12 @@ You can find many SDFs in a website called Shadertoy. They are usually in the co
 
 ---
 
-## Buddhabrot
-#### [Github](https://github.com/JPBotelho/Buddhabrot)
+## Buddhabrot <a href="https://github.com/JPBotelho/Buddhabrot" class = "githubLink">see on github</a> 
+
+<div markdown="0" class = "tagContainer">
+<a href="#" class = "csharpTag">C# .Net</a>
+</div>
+
 {% include github-star.html content="https://github.com/JPBotelho/Buddhabrot" %} 
 
 Mandelbrot set variants rendered with a histogram.
@@ -95,8 +108,13 @@ Our image serves as a representation of the complex plane. When we initialize Z(
 
 ---
 
-## Knots
-#### [Github](https://github.com/JPBotelho/Knots)
+## Knots <a href="https://github.com/JPBotelho/Knots" class = "githubLink">see on github</a>
+
+<div markdown="0" class = "tagContainer">
+<a href="#" class = "unityTag">Unity3D</a>
+<a href="#" class = "csharpTag">C#</a>
+</div>
+
 {% include github-star.html content="https://github.com/JPBotelho/Knots" %} 
 
 Generation and triangulation of mathematical knots.
@@ -114,8 +132,15 @@ Having the points in the knot, it is now necessary to triangulate them. To do th
 
 ---
 
-## Lorenz System
-#### [Github](https://github.com/JPBotelho/Lorenz-System)
+## Lorenz System <a href="https://github.com/JPBotelho/Lorenz-System" class = "githubLink">see on github</a>
+
+<div markdown="0" class = "tagContainer">
+<a href="#" class = "csharpTag">C# .Net</a>
+</div>
+
+
+
+
 {% include github-star.html content="https://github.com/JPBotelho/Lorenz-System" %} 
 
 Visualization of a Chaotic 3 variable system with a histogram.
@@ -129,8 +154,13 @@ To render a lorenz system, you start with a non-zero point P. Solve the differen
 {: refdef}
 ---
 
-## Mobius Strip
-#### [Github](https://github.com/JPBotelho/Mobius-Strip)
+## Mobius Strip <a href="https://github.com/JPBotelho/Mobius-Strip" class = "githubLink">see on github</a>
+
+<div markdown="0" class = "tagContainer">
+<a href="#" class = "unityTag">Unity3D</a>
+<a href="#" class = "csharpTag">C#</a>
+</div>
+
 {% include github-star.html content="https://github.com/JPBotelho/Mobius-Strip" %} 
 
 2 Variable parametric surface plotting and triangulation.
@@ -145,8 +175,11 @@ Given a point in this plane, the parametric surface equations will tell you wher
 {: refdef}
 ---
 
-## Cellular Automata
-#### [Github]()
+## Cellular Automata <a href="#" class = "githubLink">see on github</a>
+
+<div markdown="0" class = "tagContainer">
+<a href="#" class = "pythonTag">Python</a>
+</div>
 Simulation of individual cell behaviour being based on neighbour status.
 
 Cellular Automata operates on a grid, where a cell can be either on or off. Every time the grid is refreshed, every cell will look for the status of its neighbours in order to set its own status. The rules used can vary; the one I implemented stated that every cell will adopt the status of the majority of its neighbours. So if most are a 0, it will turn to a 0 as well. This method is often used in procedural generation, mainly in cave generation. A well known application of this technique is Conway's Game of Life.

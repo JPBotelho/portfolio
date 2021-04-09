@@ -20,6 +20,107 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
 }
 
+.unityTag {
+  margin: 10px 0px;
+  padding: 4px 10px;
+  color: #fff;
+  background: rgb(56, 56, 56);
+  font-size: 80%;
+  font-family: sans-serif;
+  text-decoration: none;
+  text-transform: uppercase; 
+}
+#markdown-toc {
+  a:nth-child(2){
+      display:none;
+  }
+}
+
+.openGLTag {
+  margin: 10px 0px;
+  padding: 4px 10px;
+  color: #fff;
+  background: rgb(4, 138, 247);
+  font-size: 80%;
+  font-family: sans-serif;
+  text-decoration: none;
+  text-transform: uppercase; 
+}
+
+.glslTag {
+  margin: 10px 0px;
+  padding: 4px 10px;
+  color: #fff;
+  background: rgb(247, 20, 4);
+  font-size: 80%;
+  font-family: sans-serif;
+  text-decoration: none;
+  text-transform: uppercase; 
+}
+
+.directXTag {
+  margin: 10px 0px;
+  padding: 4px 10px;
+  color: #fff;
+  background: rgb(220, 77, 0);
+  font-size: 80%;
+  font-family: sans-serif;
+  text-decoration: none;
+  text-transform: uppercase; 
+}
+
+.cppTag {
+  margin: 10px 0px;
+  padding: 4px 10px;
+  color: #fff;
+  background: rgb(0, 0, 236);
+  font-size: 80%;
+  font-family: sans-serif;
+  text-decoration: none;
+  text-transform: uppercase; 
+}
+
+.githubLink {
+  font-size: 10px;
+}
+
+.csharpTag {
+  margin: 10px 0px;
+  padding: 4px 10px;
+  color: #fff;
+  background: rgb(131, 0, 131);
+  font-size: 80%;
+  font-family: sans-serif;
+  text-decoration: none;
+  text-transform: uppercase; 
+}
+
+.hlslTag {
+  margin: 10px 0px;
+  padding: 4px 10px;
+  color: #fff;
+  background: rgb(0, 112, 187);
+  font-size: 80%;
+  font-family: sans-serif;
+  text-decoration: none;
+  text-transform: uppercase; 
+}
+
+.pythonTag {
+  margin: 10px 0px;
+  padding: 4px 10px;
+  color: #fff;
+  background: rgb(31, 155, 0);
+  font-size: 80%;
+  font-family: sans-serif;
+  text-decoration: none;
+  text-transform: uppercase; 
+}
+
+.tagContainer {
+  margin-bottom: 10px;
+}
+
 p, ul, ol, table, pre, dl {
   margin:0 0 20px;
   text-align: justify;

@@ -14,7 +14,9 @@ projectNR: "2 Shaders"
 ---
 
 ## Metaballs
-
+<div markdown="0" class = "tagContainer">
+<a href="#" class = "glslTag">GLSL</a>
+</div>
 <details><summary>SHOW SOURCE</summary>
 
 <p>
@@ -28,7 +30,9 @@ projectNR: "2 Shaders"
 ---
 
 ## 2D Lighting Simulation
-
+<div markdown="0" class = "tagContainer">
+<a href="#" class = "glslTag">GLSL</a>
+</div>
 <details><summary>SHOW SOURCE</summary>
 <p>
 {% include 2dLightShader.txt %}

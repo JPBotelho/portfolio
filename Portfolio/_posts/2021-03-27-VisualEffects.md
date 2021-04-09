@@ -18,6 +18,12 @@ projectNR: "5 Projects"
 ---
 
 ## Health Bar
+
+<div markdown="0" class = "tagContainer">
+<a href="#" class = "unityTag">Unity3D</a>
+<a href ="#" class = "hlslTag"> HLSL</a>
+</div>
+
 ![Test](/assets/images/AnimatedBar.gif "Image")
 
 I made this health bar in a 48-hour Gamejam called Gamesforgood. Read more about the game [here]({% post_url 2021-03-28-Games %}#fome-de-vencer-hunger-to-win).
@@ -29,8 +35,13 @@ It has a scrolling texture and the color changes from green to red as your life 
 
 ---
 
-## Procedural Toon Shader
-#### [Github](https://github.com/JPBotelho/Procedural-Toon-Shader)
+## Procedural Toon Shader  <a href="https://github.com/JPBotelho/Procedural-Toon-Shader" class = "githubLink">see on github</a>
+
+<div markdown="0" class = "tagContainer">
+<a href="#" class = "unityTag">Unity3D</a>
+<a href ="#" class = "hlslTag"> HLSL</a>
+</div>
+
 {% include github-star.html content="https://github.com/JPBotelho/Procedural-Toon-Shader" %} 
 
 Swaps a linear lighting function with a non-linear one for a stylized look.
@@ -45,8 +56,13 @@ A normal lighting function usually returns a linear value from 0 to 1. This impl
 
 
 
-## Camouflage Shader
-#### [Github](https://github.com/JPBotelho/Camouflage-Shader)
+## Camouflage Shader <a href="https://github.com/JPBotelho/Camouflage-Shader" class = "githubLink">see on github</a>
+
+<div markdown="https://github.com/JPBotelho/Fractal-Megacollection" class = "tagContainer">
+<a href="#" class = "unityTag">Unity3D</a>
+<a href ="#" class = "hlslTag"> HLSL</a>
+</div>
+
 {% include github-star.html content="https://github.com/JPBotelho/Camouflage-Shader" %} 
 
 
@@ -62,8 +78,13 @@ This is a very simple shader but can allow for some pretty cool customization. I
 ---
 
 
-## Dissolve Effect
-#### [Github](https://github.com/JPBotelho/Dissolve-Shader)
+## Dissolve Effect <a href="https://github.com/JPBotelho/Dissolve-Shader" class = "githubLink">see on github</a>
+
+<div markdown="0" class = "tagContainer">
+<a href="#" class = "unityTag">Unity3D</a>
+<a href ="#" class = "hlslTag"> HLSL</a>
+</div>
+
 {% include github-star.html content="https://github.com/JPBotelho/Dissolve-Shader" %} 
 
 Makes an object progressively transparent based on a noise map.
@@ -76,8 +97,13 @@ Makes an object progressively transparent based on a noise map.
 ---
 
 
-## Triplanar Mapping
-#### [Github](https://github.com/JPBotelho/Triplanar-Mapping)
+## Triplanar Mapping <a href="https://github.com/JPBotelho/Triplanar-Mapping" class = "githubLink">see on github</a>
+
+<div markdown="0" class = "tagContainer">
+<a href="#" class = "unityTag">Unity3D</a>
+<a href ="#" class = "hlslTag"> HLSL</a>
+</div>
+
 {% include github-star.html content="https://github.com/JPBotelho/Triplanar-Mapping" %} 
 
 Allows for axis-based coloring and texturing, allowing, for example, to fake snow on top of an object.
