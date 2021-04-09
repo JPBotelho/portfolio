@@ -26,7 +26,7 @@ projectNR: "2 Projects"
 This was my attempt at writing the typical OpenGL engine that everyone does. Except I did it in C# using OpenTK, which is the language I'm most comfortable with. I did this so I didn't have to learn the framework while learning C++. This way, I was able to learn the key concepts of rendering with OpenGL.
 
 It is rather crude, but it is enough to create a decent picture straight out of 2005. It has got:
-- ASIMP Model loading
+- ASSIMP Model loading
 - Directional Lights
 - Point Lights
 - Per light shadowmapping

@@ -68,6 +68,7 @@ Different fractals will have different equations, it is generally just a matter 
 
 <div markdown="0" class = "tagContainer">
 <a href="#" class = "unityTag">Unity3D</a>
+<a href ="#" class = "hlslTag"> HLSL</a>
 </div>
 
 {% include github-star.html content="https://github.com/JPBotelho/Raymarched-Fractals" %} 
