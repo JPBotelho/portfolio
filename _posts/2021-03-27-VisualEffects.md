@@ -24,7 +24,7 @@ projectNR: "5 Projects"
 <a href ="#" class = "hlslTag"> HLSL</a>
 </div>
 
-![Test](/assets/images/AnimatedBar.gif "Image")
+![Test]({{/assets/images/AnimatedBar.gif ! absolute_url}} "Image")
 
 I made this health bar in a 48-hour Gamejam called Gamesforgood. Read more about the game [here]({% post_url 2021-03-28-Games %}#fome-de-vencer-hunger-to-win).
 
@@ -71,7 +71,7 @@ Applies a camouflage texture based on a pre-defined map.
 This is a very simple shader but can allow for some pretty cool customization. It takes a black/white map, with camouflage being rendered where it is white. 
 
 {:refdef: style="text-align: center;"}
-![Test](_assets/images/Camo2.png "Image")
+![Test](/assets/images/Camo2.png "Image")
 ![Test](/assets/images/Camo1.png "Image")
 {: refdef}
 
