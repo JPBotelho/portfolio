@@ -3,7 +3,10 @@ layout: default
 title:  "Graphical Engines"
 date:  2019-08-09 20:55:40 +0800
 categories: jekyll update
+thumbnail2: /assets/images/OGL3.png
+
 thumbnail: /assets/images/EnginesThumbnail.PNG
+
 projectNR: "2 Projects"
 ---
 <script async defer src="https://buttons.github.io/buttons.js"></script>

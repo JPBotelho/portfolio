@@ -4,6 +4,7 @@ title:  "Shadertoys"
 date:  2019-08-09 20:55:40 +0800
 categories: jekyll update
 thumbnail: /assets/images/ShadertoyThumb.png
+thumbnail2: /assets/images/Metaballs.png
 projectNR: "2 Shaders"
 ---
 

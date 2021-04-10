@@ -4,6 +4,8 @@ title:  "Procedural Generation"
 date:  2019-08-09 20:55:40 +0800
 categories: jekyll update
 thumbnail: /assets/images/ProcGenThumbnail.png
+thumbnail2: /assets/images/VoxelTerrain.png
+
 projectNR: "2 Projects"
 ---
 <script async defer src="https://buttons.github.io/buttons.js"></script>

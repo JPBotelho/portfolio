@@ -49,9 +49,26 @@
                 <a href="{{ site.url }}{{ site.baseurl }}{{ post.url}}">{{ post.title }}</a>
                 <h6>{{ post.projectNR }}</h6>
                 </div>
-                <div>
-                <img class ="thumbnail" src={{ site.url }}{{ site.baseurl }}{{ post.thumbnail }} alt="Girl in a jacket">
+                {% if post.thumbnail3 %}
+                  <div class ="thumbnailContainer">
+                  <img class ="thumbnail" src={{ site.url }}{{ site.baseurl }}{{ post.thumbnail }} alt="Girl in a jacket">
+                  <img class ="thumbnail" src={{ site.url }}{{ site.baseurl }}{{ post.thumbnail2 }} alt="Girl in a jacket">
+                  <img class ="thumbnail" src={{ site.url }}{{ site.baseurl }}{{ post.thumbnail3 }} alt="Girl in a jacket">
                 </div>
+                {% endif %}
+                {% unless post.thumbnail3 %}
+                  {% if post.thumbnail2 %}
+                    <div class ="thumbnailContainer2">
+                      <img class ="thumbnail" src={{ site.url }}{{ site.baseurl }}{{ post.thumbnail }} alt="Girl in a jacket">
+                      <img class ="thumbnail" src={{ site.url }}{{ site.baseurl }}{{ post.thumbnail2 }} alt="Girl in a jacket">
+                    </div>
+                  {% endif %}
+                {% endunless %}
+                {% unless post.thumbnail2 %}
+                  <div>
+                    <img class ="thumbnail" src={{ site.url }}{{ site.baseurl }}{{ post.thumbnail }} alt="Girl in a jacket">
+                  </div>
+                {% endunless %}
             </h1>
           </div>  
            

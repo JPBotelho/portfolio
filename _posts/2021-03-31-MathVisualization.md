@@ -4,6 +4,8 @@ title:  "Mathematical Visualization"
 date:  2019-08-09 20:55:40 +0800
 categories: jekyll update
 thumbnail: /assets/images/MathVizThumbnail.png
+thumbnail2: /assets/images/Tricorn.png
+thumbnail3: /assets/images/RaymarchedFractals2.png
 projectNR: "7 Projects"
 ---
 <script async defer src="https://buttons.github.io/buttons.js"></script>

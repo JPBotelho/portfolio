@@ -4,6 +4,9 @@ title:  "Visual Effects"
 date:  2019-08-09 20:55:40 +0800
 categories: jekyll update
 thumbnail: /assets/images/VFXThumb.PNG
+thumbnail2: /assets/images/Camo1.PNG
+thumbnail3: /assets/images/DissolveThumb.gif
+
 projectNR: "5 Projects"
 ---
 
