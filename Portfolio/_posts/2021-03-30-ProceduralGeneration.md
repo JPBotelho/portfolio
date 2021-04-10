@@ -19,7 +19,7 @@ projectNR: "2 Projects"
 <a href="#" class = "csharpTag">C#</a>
 </div>
 
-{% include github-star.html content="https://github.com/JPBotelho/Unity-Road-Generator" %} 
+{% include githubStar.html content="https://github.com/JPBotelho/Unity-Road-Generator" %} 
 
 After toying with convex meshes and procedural low poly models, this was the next step in my procedural generation adventure. I found a Catmull-Rom spline implementation in an obscure github repo and got to work. I cleaned up the code from there and used it to generate road meshes with curbs at the sides. It wasn't much in terms of innovation but it was an experience of code archeology and adaptation.
 
@@ -35,7 +35,7 @@ After toying with convex meshes and procedural low poly models, this was the nex
 <a href="#" class = "unityTag">Unity3D</a>
 <a href="#" class = "csharpTag">C#</a>
 </div>
-{% include github-star.html content="https://github.com/JPBotelho/Voxel-Terrain" %} 
+{% include githubStar.html content="https://github.com/JPBotelho/Voxel-Terrain" %} 
 
 Voxel-generated terrain is something that has always fascinated me. For this project, I started off with [Scrawk's Marching Cubes](https://github.com/Scrawk/Marching-Cubes) implementation. The program uses a noise texture as a heightmap to populate a grid of voxels, which are then meshed using Scrawk's code. Top faces are rendered with a different color according to its normal vector. 
 

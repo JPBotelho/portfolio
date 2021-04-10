@@ -22,7 +22,7 @@ Mathematical concepts can produce some really cool visualizations. However, a lo
 <a href ="#" class = "hlslTag"> HLSL</a>
 </div>
 
-{% include github-star.html content="https://github.com/JPBotelho/Fractal-Megacollection" %} 
+{% include githubStar.html content="https://github.com/JPBotelho/Fractal-Megacollection" %} 
 
 
 Implementation of the following fractal formulas:
@@ -71,7 +71,7 @@ Different fractals will have different equations, it is generally just a matter 
 <a href ="#" class = "hlslTag"> HLSL</a>
 </div>
 
-{% include github-star.html content="https://github.com/JPBotelho/Raymarched-Fractals" %} 
+{% include githubStar.html content="https://github.com/JPBotelho/Raymarched-Fractals" %} 
 
 First experimentation with Raymarching. Implemented in Unity as a Post-Processing effect. The Signed Distance Functions were taken from Shadertoy, and for the rendering it is a mixture of fake iteration-based Ambient Occlusion and Phong shading.
 
@@ -96,7 +96,7 @@ You can find many SDFs in a website called Shadertoy. They are usually in the co
 <a href="#" class = "csharpTag">C# .Net</a>
 </div>
 
-{% include github-star.html content="https://github.com/JPBotelho/Buddhabrot" %} 
+{% include githubStar.html content="https://github.com/JPBotelho/Buddhabrot" %} 
 
 Mandelbrot set variants rendered with a histogram.
 
@@ -116,7 +116,7 @@ Our image serves as a representation of the complex plane. When we initialize Z(
 <a href="#" class = "csharpTag">C#</a>
 </div>
 
-{% include github-star.html content="https://github.com/JPBotelho/Knots" %} 
+{% include githubStar.html content="https://github.com/JPBotelho/Knots" %} 
 
 Generation and triangulation of mathematical knots.
 
@@ -142,7 +142,7 @@ Having the points in the knot, it is now necessary to triangulate them. To do th
 
 
 
-{% include github-star.html content="https://github.com/JPBotelho/Lorenz-System" %} 
+{% include githubStar.html content="https://github.com/JPBotelho/Lorenz-System" %} 
 
 Visualization of a Chaotic 3 variable system with a histogram.
 
@@ -162,7 +162,7 @@ To render a lorenz system, you start with a non-zero point P. Solve the differen
 <a href="#" class = "csharpTag">C#</a>
 </div>
 
-{% include github-star.html content="https://github.com/JPBotelho/Mobius-Strip" %} 
+{% include githubStar.html content="https://github.com/JPBotelho/Mobius-Strip" %} 
 
 2 Variable parametric surface plotting and triangulation.
 

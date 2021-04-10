@@ -42,7 +42,7 @@ It has a scrolling texture and the color changes from green to red as your life 
 <a href ="#" class = "hlslTag"> HLSL</a>
 </div>
 
-{% include github-star.html content="https://github.com/JPBotelho/Procedural-Toon-Shader" %} 
+{% include githubStar.html content="https://github.com/JPBotelho/Procedural-Toon-Shader" %} 
 
 Swaps a linear lighting function with a non-linear one for a stylized look.
 
@@ -63,7 +63,7 @@ A normal lighting function usually returns a linear value from 0 to 1. This impl
 <a href ="#" class = "hlslTag"> HLSL</a>
 </div>
 
-{% include github-star.html content="https://github.com/JPBotelho/Camouflage-Shader" %} 
+{% include githubStar.html content="https://github.com/JPBotelho/Camouflage-Shader" %} 
 
 
 Applies a camouflage texture based on a pre-defined map.
@@ -85,7 +85,7 @@ This is a very simple shader but can allow for some pretty cool customization. I
 <a href ="#" class = "hlslTag"> HLSL</a>
 </div>
 
-{% include github-star.html content="https://github.com/JPBotelho/Dissolve-Shader" %} 
+{% include githubStar.html content="https://github.com/JPBotelho/Dissolve-Shader" %} 
 
 Makes an object progressively transparent based on a noise map.
 
@@ -104,7 +104,7 @@ Makes an object progressively transparent based on a noise map.
 <a href ="#" class = "hlslTag"> HLSL</a>
 </div>
 
-{% include github-star.html content="https://github.com/JPBotelho/Triplanar-Mapping" %} 
+{% include githubStar.html content="https://github.com/JPBotelho/Triplanar-Mapping" %} 
 
 Allows for axis-based coloring and texturing, allowing, for example, to fake snow on top of an object.
 

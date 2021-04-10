@@ -21,7 +21,7 @@ projectNR: "2 Projects"
 <a href ="#" class = "openGLTag">OpenTK</a>
 </div>
 
-{% include github-star.html content="https://github.com/JPBotelho/OpenGL-Sandbox" %} 
+{% include githubStar.html content="https://github.com/JPBotelho/OpenGL-Sandbox" %} 
 
 This was my attempt at writing the typical OpenGL engine that everyone does. Except I did it in C# using OpenTK, which is the language I'm most comfortable with. I did this so I didn't have to learn the framework while learning C++. This way, I was able to learn the key concepts of rendering with OpenGL.
 
@@ -51,7 +51,7 @@ Here are some images:
 <a href="#" class = "directXTag">DirectX 11</a>
 </div>
 
-{% include github-star.html content="https://github.com/JPBotelho/DirectX-Engine" %} 
+{% include githubStar.html content="https://github.com/JPBotelho/DirectX-Engine" %} 
 
 
 This was my first attempt at writing an engine and interacting with a graphics API, as well as using C++. I believe I tried to follow [rastertek's tutorial](http://www.rastertek.com/tutdx11.html) but quickly derailed. In the end, I got to the very beginning stage of rendering, having implemented an obj model loader and sucessfully implemented an icosphere. I quickly got demotivated for my lack of progress and autonomy, and put aside the project and engine-programming in general until my above attempt at an OpenGL engine.
