@@ -26,7 +26,7 @@ projectNR: "5 Projects"
 
 ![Test]({{ site.url }}{{ site.baseurl }}/assets/images/AnimatedBar.gif "Image")
 
-I made this health bar in a 48-hour Gamejam called Gamesforgood. Read more about the game [here]({% post_url 2021-03-28-Games %}#fome-de-vencer-hunger-to-win).
+I made this health bar in a 48-hour Gamejam called Gamesforgood. Read more about the game [here]({{site.baseurl }}{% post_url 2021-03-28-Games %}#fome-de-vencer-hunger-to-win).
 
 It has a scrolling texture and the color changes from green to red as your life depletes; it is very simple in theory and implementation but it is a practical example of actually using shaders in the real world rather than to keep in your github and put in your portfolio. Displayed above. In my portfolio.
 
