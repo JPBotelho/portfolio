@@ -3,7 +3,7 @@ layout: default
 title:  "Visual Effects"
 date:  2019-08-09 20:55:40 +0800
 categories: jekyll update
-thumbnail: /assets/images/VFXThumb.png
+thumbnail: /assets/images/VFXThumb.PNG
 projectNR: "5 Projects"
 ---
 
