@@ -24,7 +24,7 @@ projectNR: "5 Projects"
 <a href ="#" class = "hlslTag"> HLSL</a>
 </div>
 
-![Test]({{/assets/images/AnimatedBar.gif ! absolute_url}} "Image")
+![Test](/portfolio/assets/images/AnimatedBar.gif "Image")
 
 I made this health bar in a 48-hour Gamejam called Gamesforgood. Read more about the game [here]({% post_url 2021-03-28-Games %}#fome-de-vencer-hunger-to-win).
 
