@@ -36,9 +36,9 @@ Basically, it loads Crytek Sponza and you can have a bunch of point lights in th
 
 Here are some images:
 
-![Test](/assets/images/OGL1.png "Image")
-![Test](/assets/images/OGL2.png "Image")
-![Test](/assets/images/OGL3.png "Image")
+![Test]({{ site.url }}{{ site.baseurl }}/assets/images/OGL1.png "Image")
+![Test]({{ site.url }}{{ site.baseurl }}/assets/images/OGL2.png "Image")
+![Test]({{ site.url }}{{ site.baseurl }}/assets/images/OGL3.png "Image")
 
 
 ---
@@ -60,7 +60,7 @@ I don't have many screenshots, because this barely rendered anything.
 But I do have this icosphere:
 
 {:refdef: style="text-align: center;"}
-![Test](/assets/images/Ico.png "Image")
+![Test]({{ site.url }}{{ site.baseurl }}/assets/images/Ico.png "Image")
 {: refdef}
 
 

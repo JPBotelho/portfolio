@@ -24,13 +24,13 @@ projectNR: "5 Projects"
 <a href ="#" class = "hlslTag"> HLSL</a>
 </div>
 
-![Test](/assets/images/AnimatedBar.gif "Image")
+![Test]({{ site.url }}{{ site.baseurl }}/assets/images/AnimatedBar.gif "Image")
 
 I made this health bar in a 48-hour Gamejam called Gamesforgood. Read more about the game [here]({% post_url 2021-03-28-Games %}#fome-de-vencer-hunger-to-win).
 
 It has a scrolling texture and the color changes from green to red as your life depletes; it is very simple in theory and implementation but it is a practical example of actually using shaders in the real world rather than to keep in your github and put in your portfolio. Displayed above. In my portfolio.
 
-![Test](/assets/images/FomeDeVencer2.png "Image")
+![Test]({{ site.url }}{{ site.baseurl }}/assets/images/FomeDeVencer2.png "Image")
 
 
 ---
@@ -49,7 +49,7 @@ Swaps a linear lighting function with a non-linear one for a stylized look.
 A normal lighting function usually returns a linear value from 0 to 1. This implementation takes that value and uses it as the input to a custom, non-linear function set by an Animation Curve element in the Unity Engine. It allows for the creation of "steps" in the lighting, where areas of similar illumination are attributed the same value, giving it a more cartoony look.
 
 {:refdef: style="text-align: center;"}
-![Test](/assets/images/ProcToonShader.png "Image")
+![Test]({{ site.url }}{{ site.baseurl }}/assets/images/ProcToonShader.png "Image")
 {: refdef}
 
 ----
@@ -71,8 +71,8 @@ Applies a camouflage texture based on a pre-defined map.
 This is a very simple shader but can allow for some pretty cool customization. It takes a black/white map, with camouflage being rendered where it is white. 
 
 {:refdef: style="text-align: center;"}
-![Test](/assets/images/Camo2.png "Image")
-![Test](/assets/images/Camo1.png "Image")
+![Test]({{ site.url }}{{ site.baseurl }}/assets/images/Camo2.png "Image")
+![Test]({{ site.url }}{{ site.baseurl }}/assets/images/Camo1.png "Image")
 {: refdef}
 
 ---
@@ -91,7 +91,7 @@ Makes an object progressively transparent based on a noise map.
 
 
 {:refdef: style="text-align: center;"}
-![Test](/assets/images/Dissolve.gif "Image")
+![Test]({{ site.url }}{{ site.baseurl }}/assets/images/Dissolve.gif "Image")
 {: refdef}
 
 ---
@@ -109,7 +109,7 @@ Makes an object progressively transparent based on a noise map.
 Allows for axis-based coloring and texturing, allowing, for example, to fake snow on top of an object.
 
 {:refdef: style="text-align: center;"}
-![Test](/assets/images/Triplanar.png "Image")
+![Test]({{ site.url }}{{ site.baseurl }}/assets/images/Triplanar.png "Image")
 {: refdef}
 
 ---

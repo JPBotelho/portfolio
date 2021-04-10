@@ -55,9 +55,9 @@ These fractals are the representation of a set of complex numbers Z(x+yi) on the
 Different fractals will have different equations, it is generally just a matter of swapping that part in your code. Do remember that these are complex numbers, meaning that they are 2 dimentional and have their own operations. 
 
 {:refdef: style="text-align: center;"}
-![Test](/assets/images/MathVizThumbnail.png "Image")
-![Test](/assets/images/Mandelbrot1.png "Image")
-![Test](/assets/images/Barnsley2.png "Image")
+![Test]({{ site.url }}{{ site.baseurl }}/assets/images/MathVizThumbnail.png "Image")
+![Test]({{ site.url }}{{ site.baseurl }}/assets/images/Mandelbrot1.png "Image")
+![Test]({{ site.url }}{{ site.baseurl }}/assets/images/Barnsley2.png "Image")
 {: refdef}
 
 
@@ -82,7 +82,7 @@ You can find many SDFs in a website called Shadertoy. They are usually in the co
 
 
 
-![Test](/assets/images/RaymarchedFractals2.png "Image")
+![Test]({{ site.url }}{{ site.baseurl }}/assets/images/RaymarchedFractals2.png "Image")
 
 {:refdef: style="text-align: center;"}
 ### ![Test](/assets/images/RaymarchedFractal.gif "Image")
@@ -104,8 +104,8 @@ A Buddhabrot is created using the same algorithm we used to determine if a point
 Our image serves as a representation of the complex plane. When we initialize Z(x + iy), we are converting our pixel into a complex number. Whenever we iterate Z^2+c, Z will change, meaning it will be located in a different place of the Complex Plane. A different pixel in our image. A Buddhabrot is rendered by keeping track of how many times a pixel was visited by other pixels which escaped (and do not belong in the Mandelbrot Set). This can be achieved by having a grid of integers for every pixel which get incremented whenever they are visited. In the end, it can be rendered as grayscale by making the values linear. For colored rendering, you compute this grid 3 times, one for each color channel (RGB), except every time you do you change the maximum number of iterations. This rendering method can also be applied to other escape-time fractals.
 
 
-![Test](/assets/images/Tricorn.png "Image")
-![Test](/assets/images/Buddhabrot3.png "Image")
+![Test]({{ site.url }}{{ site.baseurl }}/assets/images/Tricorn.png "Image")
+![Test]({{ site.url }}{{ site.baseurl }}/assets/images/Buddhabrot3.png "Image")
 
 ---
 
@@ -127,8 +127,8 @@ Given a variable u, which ranges from ]0 ; 2π[, there are a set of functions th
 Having the points in the knot, it is now necessary to triangulate them. To do this, calculate the normal vector N of the edge between every point and the next. Afterwards, for every point, generate n vertices evenly spaced in a circumference of radius N (see github for visualization). In the end, it is just a matter of combining the vertices at each point and triangulating them. 
 
 {:refdef: style="text-align: center;"}
-![Test](/assets/images/Knot1.png "Image")
-![Test](/assets/images/Knot3.png "Image")
+![Test]({{ site.url }}{{ site.baseurl }}/assets/images/Knot1.png "Image")
+![Test]({{ site.url }}{{ site.baseurl }}/assets/images/Knot3.png "Image")
 {: refdef}
 
 ---
@@ -150,8 +150,8 @@ The lorenz system is a set of 3 differential equations. These equations tell you
 
 To render a lorenz system, you start with a non-zero point P. Solve the differential equations for the point. Add the output to the current point's position. Render the point. Repeat. In order to obtain smooth results, multiply the result of the equations by something like 0.01. This ensures that the point moves very little each time, which generates more data.
 {:refdef: style="text-align: center;"}
-![Test](/assets/images/Lorenz1.png "Image")
-![Test](/assets/images/Lorenz2.png "Image")
+![Test]({{ site.url }}{{ site.baseurl }}/assets/images/Lorenz1.png "Image")
+![Test]({{ site.url }}{{ site.baseurl }}/assets/images/Lorenz2.png "Image")
 {: refdef}
 ---
 
@@ -171,8 +171,8 @@ It can be implemented as a parametric surface: Imagine you have a plane (u, v), 
 Given a point in this plane, the parametric surface equations will tell you where it will end up in three dimensions. so from P(u,v) you get P(x,y,z). It is essentially a deformation of the plane. In order to render it, generate a grid that will correspond to your plane. Triangulate it, as a normal grid. Then calculate the transformed position for every vertex. The vertices will change place but the triangles will remain the same.
 
 {:refdef: style="text-align: center;"}
-![Test](/assets/images/Mobius.png "Image")
-![Test](/assets/images/Mobius2.png "Image")
+![Test]({{ site.url }}{{ site.baseurl }}/assets/images/Mobius.png "Image")
+![Test]({{ site.url }}{{ site.baseurl }}/assets/images/Mobius2.png "Image")
 {: refdef}
 ---
 
@@ -187,7 +187,7 @@ Cellular Automata operates on a grid, where a cell can be either on or off. Ever
 
 
 {:refdef: style="text-align: center;"}
-![Test](/assets/images/CellularAutomata.png "Image")
+![Test]({{ site.url }}{{ site.baseurl }}/assets/images/CellularAutomata.png "Image")
 {: refdef}
 
 ---
