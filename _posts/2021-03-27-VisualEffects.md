@@ -71,7 +71,7 @@ Applies a camouflage texture based on a pre-defined map.
 This is a very simple shader but can allow for some pretty cool customization. It takes a black/white map, with camouflage being rendered where it is white. 
 
 {:refdef: style="text-align: center;"}
-![Test](/assets/images/Camo2.png "Image")
+![Test](_assets/images/Camo2.png "Image")
 ![Test](/assets/images/Camo1.png "Image")
 {: refdef}
 
