@@ -21,7 +21,7 @@
     <div id="header">
       <nav>
         <li class="fork">
-          <a href="{{ site.url }}">Home</a>
+          <a href="{{ site.url }}{{ site.baseurl }}">{{ site.url }}{{ site.baseurl }}</a>
           {% for post in site.posts %}
           <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
           {% endfor %}            
