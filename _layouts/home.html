@@ -23,7 +23,7 @@
           <li class="fork">
             <a href="{{ site.url }}{{ site.baseurl }}">{{ site.url }}{{ site.baseurl }}</a>
             {% for post in site.posts %}
-            <a href="{{ site.url }}{{ site.baseurl }}{{ post.url | relative_url }}">{{ post.title }}</a>
+            <a href="{{ site.url }}{{ site.baseurl }}{{ post.url}}">{{ post.title }}</a>
             {% endfor %}            
           </li>
           
@@ -46,7 +46,7 @@
           <div class ="container">
             <h1>
                 <div class = "prevtitle">
-                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                <a href="{{ site.url }}{{ site.baseurl }}{{ post.url}}">{{ post.title }}</a>
                 <h6>{{ post.projectNR }}</h6>
                 </div>
                 <div>
