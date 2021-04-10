@@ -85,7 +85,7 @@ You can find many SDFs in a website called Shadertoy. They are usually in the co
 ![Test]({{ site.url }}{{ site.baseurl }}/assets/images/RaymarchedFractals2.png "Image")
 
 {:refdef: style="text-align: center;"}
-### ![Test](/assets/images/RaymarchedFractal.gif "Image")
+### ![Test]({{ site.url }}{{ site.baseurl }}/assets/images/RaymarchedFractal.gif "Image")
 {: refdef}
 
 ---
